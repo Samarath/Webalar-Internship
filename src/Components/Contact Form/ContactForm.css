@@ -1,0 +1,88 @@
+
+.contactform h4{
+    font-size: 72px;
+    color: #364F6B;
+    
+}
+
+.c_form{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.under_c_form{
+    background-color: #364F6B;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.under_c_form p{
+    color: #D9D9D9;
+}
+
+.under_c_form h5{
+    color: #FFFFFF;
+    font-size: 28px;
+    margin: 0;
+}
+
+.under_c_form label{
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.under_c_form input{
+    background-color: #394149;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    padding: 5px;
+    color: #D9D9D9;
+    width: 100%;
+}
+.under_c_form input[type='email'], .under_c_form .phone{
+    width: 50%;
+}
+
+textarea{
+    resize: none;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #394149;
+    border: none;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.under_c_form button{
+    background-color: #43DDE6;
+    border-radius: 10px;
+    padding: 5px 30px;
+    border: none;
+    color: #333333;
+}
+
+.address_info{
+    color: #333333;
+    border-bottom: 1px solid silver;
+}
+
+.address_info h5{
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .address_detail{
+        display: none;
+    }
+
+    .c_form{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
